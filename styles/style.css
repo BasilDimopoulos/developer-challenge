@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: white;
+    color: black;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.main{
+    width: 100%;
+    height: 90vh;
+    background: url("../assets/images/hero-1.jpg");
+    background-size: cover;
+}
+
+p{
+    font-size: 13px;
+    font-weight: bold;
+    opacity: 0.65; 
+    letter-spacing: 1px;
+}
+
+.nav-break{
+    color: white;
+    opacity: 0.3;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+}
+
+.navbar{
+    color: black;
+    border-bottom: white 1px;
+    padding: 45px;
+}
+
+.logo{
+    flex:2;
+}
+
+.menu{
+    position: absolute;
+    right: 0;
+    color: white;
+    font-size: 15px;
+}
+
+.menu>ul{
+    display: flex;
+    list-style: none;
+}
+
+
+.description{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #E2E2E2;
+    padding-top: 30px;
+}
+
+h1{
+    font-weight: lighter;
+    color: #E2E2E2;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.nav-links{
+    color: rgb(218, 218, 218);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 30px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    font-size: 14;
+}
+
+ul>li{
+    color: white;
+}
+
+.hero-button{
+    display:inline-block;
+    padding:0.8em 1.5em;
+    border:0.1em solid #F1585D;
+    background-color: #F1585D;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    color: #FEF7F8;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+.hero-button:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+    border:0.1em solid #FFFFFF;
+
+}
+
+.about-us{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.about-us-image{
+    width: 50%;
+    text-align: right;
+}
+
+
+.about-us-content{
+    text-align: left;
+    padding-right: 50%;
+}
+
+.two-collumns{
+    display: flex;
+    margin-top: 50px;
+}
+
+.about-us-container{
+    flex: 50%;
+}
+.services{
+    text-align: center;
+    padding-top: 100px;
+    background-color: #F5F5F5;
+}
+
+.title-break{
+    width: 50px;
+    margin: auto;
+    margin-top: 18px;
+    border:1px solid #F16467;
+}
+.services-grid {
+    display: flex;                       /* establish flex container */
+    flex-wrap: wrap;                     /* enable flex items to wrap */
+    justify-content: space-around;
+    background-color: #F5F5F5;
+    padding-top: 80px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 100px;
+    
+  }
+
+
+  .cell {
+    flex: 0 0 27%;                       /* don't grow, don't shrink, width */
+    margin-bottom: 25px;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+
+  }
+
+  .cell-description{
+    color: black;
+    font-size: 13px;
+    padding-top: 10px;
+  }
+
+  h3{
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+  }
+
+  h2{
+    font-weight: 100;
+    color: #6C6C6C;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 26px;
+  }
+
+  .cell > h3{
+    padding-top: 10px;
+  }
+
+  .latest-news{
+      text-align: center;
+      padding-top: 100px;
+  }
+
+  .news-grid {
+    display: flex;                       /* establish flex container */
+    flex-wrap: wrap;                     /* enable flex items to wrap */
+    justify-content: space-around;
+    background-color: white;
+    padding-top: 60px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 100px;
+    
+  }
+
+.news-subtext{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #9E9E9E;
+}
+
+.news-link{
+    margin-top: 20px;
+    color: #cc2d33;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.news-cell{
+    flex: 0 0 27%;                       /* don't grow, don't shrink, width */
+    margin-bottom: 25px;
+    background-color: white;
+    padding: 30px;
+    text-align: left;
+}
+
+
+.news-cell > h3{
+    padding-top: 10px;
+  }
+
+.news-cell > img{
+    width: 370px;
+  }
+
+  .news-cell > p{
+    font-size: 13px;
+    letter-spacing: 1;
+    font-weight: bold;
+    opacity: 0.65;
+  }
+
+  
